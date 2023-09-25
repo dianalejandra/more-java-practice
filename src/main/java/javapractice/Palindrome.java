@@ -1,10 +1,10 @@
 package javapractice;
 import java.util.Scanner;
 
-/*
-Dada una oracion, indicar si es un palindromo
-Given a sentence, show if it is a palindrome
-*/
+/**
+ * Dada una oracion, indicar si es un palindromo.
+ * Given a sentence, show if it is a palindrome.
+ */
 
 public class Palindrome {
 

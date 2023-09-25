@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
-/*
-Dados dos arraylist (arrayA y arrayB) de números imprimir en pantalla los números presentes en A ausentes en B y viceversa. Luego los números en común.
-Given two arraylist (arrayA and arrayB) of numbers, print on the screen the numbers present in A that are absent in B and vice versa. Then the numbers in common.
-*/
+/**
+ * Dados dos arraylist (arrayA y arrayB) de números imprimir en pantalla los números presentes en A ausentes en B y viceversa. Luego los números en común.
+ * Given two arraylist (arrayA and arrayB) of numbers, print on the screen the numbers present in A that are absent in B and vice versa. Then the numbers in common.
+ */
 
 public class ArraysChecks {
 
