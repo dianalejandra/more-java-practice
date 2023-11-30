@@ -13,7 +13,7 @@ public class NumArrays {
         int min = numArray[0];
         int max = numArray[0];
         int sum = 0;
-        double average = (double) sum / numArray.length;
+        double average = sum / (numArray.length);
         double sumSqrtDif = 0.0;
         double standardDeviation = Math.sqrt(sumSqrtDif / numArray.length);
 
@@ -28,6 +28,9 @@ public class NumArrays {
             double dif = num - average;
             sumSqrtDif += dif * dif;
         }
+        average = sum / (numArray.length);
+        standardDeviation = Math.sqrt(sumSqrtDif / numArray.length);
+        
         System.out.println("The array is: " + Arrays.toString(numArray));
         System.out.println("The minimum value of the array is: " + min);
         System.out.println("The maximum value of the array is: " + max);
