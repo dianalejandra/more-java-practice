@@ -14,7 +14,7 @@ package AlgorithmExercises;
 public class TemperatureConverter {
     public static void main(String[] args) {
         // inicializamos las variables que vamos a usar en el main
-        Double temperatura = 0.0;
+        Double temperatura = 32.0;
         String temperaturaOrigen = "";
         String temperaturaDestino = "";
         calcularTemperatura(temperaturaOrigen,temperaturaDestino,temperatura);

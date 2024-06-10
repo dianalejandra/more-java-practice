@@ -1,0 +1,16 @@
+
+Escribir una función que permita calcular el total de impuestos que debe pagar un trabajador, en base a su salsrio y al porcentaje que paga de impuestos:
+
+función de ejemplo:
+
+decimal calcularImpuestos(decimal salario, decimal porcentajeImpuestos){
+	decimal totalImpuestos = (salario/100) * porcentajeImpuestos;
+	return totalImpuestos;
+}
+
+--------------------
+
+---- Programa completo de programación modular ---
+
+calcular el area de figuras geométricas: dar un menu y que el usuario decida si quiere calcular un triángulo o un círculo.
+
