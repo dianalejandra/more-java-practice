@@ -53,4 +53,19 @@ public class ArraysIntegers {
             System.out.println("i");
         }
     }
+    
+    public static void numerosPrint(int numeroX){
+        // imprimir en pantalla números hasta un numeroX
+        for (int i = 1; i <= numeroX; i++){
+            System.out.println("numeros: " + i);
+        }
+    }
+    
+    public static void numerosPrintReverse(int numeroX){
+        // imprimir en pantalla números hasta un numeroX
+        for (int i = numeroX; i>= 0; i--){
+            System.out.println("numeros: " + i);
+        }
+    }
+        
 }
