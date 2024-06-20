@@ -17,7 +17,7 @@ public class TemperatureConverter {
         Double temperatura = 32.0;
         String temperaturaOrigen = "";
         String temperaturaDestino = "";
-        calcularTemperatura(temperaturaOrigen,temperaturaDestino,temperatura);
+        //calcularTemperatura(temperaturaOrigen,temperaturaDestino,temperatura);
     }
     
     public static void calcularTemperatura(Double temperatura, String temperaturaOrigen, String temperaturaDestino){
