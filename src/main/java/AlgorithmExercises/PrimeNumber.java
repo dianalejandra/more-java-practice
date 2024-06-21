@@ -11,17 +11,17 @@ public class PrimeNumber {
     }
 
     public static void isPrime() {
-        int num = 3;
-        boolean notPrimeCheck = false;
+        int num = 2;
+        boolean primeCheck = false;
 
         for (int i = 2; i <= num / 2; i++) {
             if (num % i == 0) {
-                notPrimeCheck = true;
+                primeCheck = true;
                 break;
             }
         }
 
-        if (notPrimeCheck = false) {
+        if (!primeCheck) {
             System.out.println(num + " es un numero primo.");
         } else {
             System.out.println(num + " no es un numero primo.");
