@@ -11,11 +11,11 @@ public class PrimeNumber {
     }
 
     public static void isPrime() {
-        int num = 5;
+        int num = 0;
         boolean primeCheck = false;
 
         for (int i = 2; i <= num / 2; i++) {
-            if (num % i == 0) {
+            if (num % i == 0 ) { //necesito lograr que ni 0 ni 1 los reconozca como primos
                 primeCheck = true;
                 break;
             }
