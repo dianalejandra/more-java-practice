@@ -11,7 +11,7 @@ public class PrimeNumber {
         int num = 2;       
         boolean primeCheck = false;
         if(num <= 1){ // ni 0 ni 1 son primos
-            System.out.println(num + " NO es un numero primo.");
+            System.out.println(num + " is NOT a prime number.");
         } else {
             for (int i = 2; i <= num / 2; i++) {
                 if (num % i == 0 ) {
@@ -20,9 +20,9 @@ public class PrimeNumber {
                 }
             }
             if (!primeCheck) {
-                System.out.println(num + " SÍ es un numero primo.");
+                System.out.println(num + " IS a prime number.");
             } else {
-                System.out.println(num + " NO es un numero primo.");
+                System.out.println(num + " is NOT a prime number.");
             }
         }
     }
