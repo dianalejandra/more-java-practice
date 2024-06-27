@@ -1,9 +1,6 @@
 package AlgorithmExercises;
 
-/**
- * Dado un número n, indicar si es primo o no, y en caso de que NO sea primo,
- * indicar cuál es el divisor.
- */
+/** Given a random number, indicate if it is prime or not. If it is not, show the possible divisors.*/
 public class PrimeNumber {
 
     public static void main(String[] args) {
@@ -11,20 +8,22 @@ public class PrimeNumber {
     }
 
     public static void isPrime() {
-        int num = 2;
+        int num = 2;       
         boolean primeCheck = false;
-
-        for (int i = 2; i <= num / 2; i++) {
-            if (num % i == 0) {
-                primeCheck = true;
-                break;
-            }
-        }
-
-        if (!primeCheck) {
-            System.out.println(num + " es un numero primo.");
+        if(num <= 1){ // ni 0 ni 1 son primos
+            System.out.println(num + " NO es un numero primo.");
         } else {
-            System.out.println(num + " no es un numero primo.");
+            for (int i = 2; i <= num / 2; i++) {
+                if (num % i == 0 ) {
+                    primeCheck = true;
+                    break;
+                }
+            }
+            if (!primeCheck) {
+                System.out.println(num + " SÍ es un numero primo.");
+            } else {
+                System.out.println(num + " NO es un numero primo.");
+            }
         }
     }
 
