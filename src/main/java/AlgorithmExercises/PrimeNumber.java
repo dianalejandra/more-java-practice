@@ -11,20 +11,22 @@ public class PrimeNumber {
     }
 
     public static void isPrime() {
-        int num = 0;
+        int num = 2;       
         boolean primeCheck = false;
-
-        for (int i = 2; i <= num / 2; i++) {
-            if (num % i == 0 ) { //necesito lograr que ni 0 ni 1 los reconozca como primos
-                primeCheck = true;
-                break;
-            }
-        }
-
-        if (!primeCheck) {
-            System.out.println(num + " es un numero primo.");
-        } else {
+        if(num <= 1){ // ni 0 ni 1 son primos
             System.out.println(num + " NO es un numero primo.");
+        } else {
+            for (int i = 2; i <= num / 2; i++) {
+                if (num % i == 0 ) {
+                    primeCheck = true;
+                    break;
+                }
+            }
+            if (!primeCheck) {
+                System.out.println(num + " es un numero primo.");
+            } else {
+                System.out.println(num + " NO es un numero primo.");
+            }
         }
     }
 
