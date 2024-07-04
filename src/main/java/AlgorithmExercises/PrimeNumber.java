@@ -12,7 +12,7 @@ public class PrimeNumber {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter a number to check if it is prime: ");
         int num = keyboard.nextInt();
-        int dividend = 0;
+        int dividend = 0; // dividend can be stored in an array
         boolean primeCheck = false;
         if(num <= 1){ // excluding 0 and 1
             System.out.println(num + " is NOT a prime number");
