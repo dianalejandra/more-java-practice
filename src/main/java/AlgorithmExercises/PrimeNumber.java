@@ -1,7 +1,9 @@
 package AlgorithmExercises;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-/** Given a random number, indicate if it is prime or not. If it is not, show the possible divisors.*/
+/** Given a random number, indicate if it is prime or not. If it is not, show the possible dividends.*/
 public class PrimeNumber {
 
     public static void main(String[] args) {
@@ -13,6 +15,8 @@ public class PrimeNumber {
         System.out.println("Enter a number to check if it is prime: ");
         int num = keyboard.nextInt();
         int dividend = 0; // dividend can be stored in an array
+        int [] dividendArray = new int [] {};
+        List <Integer> dividendList = new ArrayList<>();
         boolean primeCheck = false;
         if(num <= 1){ // excluding 0 and 1
             System.out.println(num + " is NOT a prime number");
@@ -21,14 +25,18 @@ public class PrimeNumber {
                 if (num % i == 0 ) {
                     primeCheck = true;
                     dividend = i;
-                    break;
+                    dividendArray = 
+                    for(int s : dividendArray){
+                    dividend = Integer.parseInt(s);
+                    dividendList.add(dividend);                    
+                    }
                 }
             }
             if (!primeCheck) {
                 System.out.println(num + " IS a prime number");
             } else {
                 System.out.println(num + " is NOT a prime number");
-                System.out.println("Dividend: " + dividend);
+                System.out.println("Dividends: " + dividendList);
             }
         }
     }
