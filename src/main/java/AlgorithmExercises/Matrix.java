@@ -14,12 +14,14 @@ public class Matrix {
                 my_matrix[i][j] = i * 10 + j;                
             }
         }
+        System.out.println("Matrix values: ");
         // read through each element on the whole matrix
         for (int i=0; i < my_matrix.length; i++){
             // we put another for to check every row element
             for (int j=0; j < my_matrix[i].length;j++){
-                System.out.println("Matrix values: " + my_matrix[i][j]);
+                System.out.print(my_matrix[i][j] + "\t");
             }
+            System.out.println("");
         }
     }    
 }
