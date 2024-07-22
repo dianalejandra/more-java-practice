@@ -1,11 +1,13 @@
 package AlgorithmExercises;
 
 /**
- * Simulate knight's movement and show all posible movements depending on where the piece is located
+ * Simulate knight's movement and show all possible movements depending on where the piece is located
  */
 public class Chess {
+    //initial position of the knight:
     int knightI = 2;
     int knight = 1;
+    
     public static void main(String[] args) {
         int [][] board = new int [8][8];
         for(int i=0; i < board.length; i++){
@@ -16,10 +18,15 @@ public class Chess {
         }
     }
     
-    public static void knightMovement(){
-    /*
-           mv1I
     
+    public static void knightMovement(){
+    /* int mov1i
+        
+        move1i=
+        move1j=
+        
+        move2i=
+        move2j=    
     */
     
     }
